@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Creative">
+    <meta property="og:title" content="Web Developer">
+    <meta property="og:description" content="">
+    <meta property="og:locale" content="en">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://doszhan-m.github.io/">
+    <meta property="og:image" content="https://doszhan-m.github.io/img/meta_preview.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!-- HOSTED -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- LOCAL -->
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>CREATIVE</title>
+</head>
+
+<body>
+    <div id="loading"></div>
+    <header id="main" class="header">
+        <div class="header__body">
+            <nav class="header__nav">
+                <ul class="header__titles">
+                    <li><a href="#preview" class="header__moblil_close">home</a></li>
+                    <li><a href="#about" class="header__moblil_close">about</a></li>
+                    <li><a href="#projects" class="header__moblil_close">projects</a></li>
+                    <li><a href="#projects" class="header__moblil_close">blog</a></li>
+                    <li><a href="#contact" class="header__moblil_close">contact</a></li>
+                </ul>
+            </nav>
+            <div class="header__burger"><span></span></div>
+        </div>
+    </header>
+
+    <main>
+        <section id="preview" class="preview">
+            <video autoplay muted loop preload="auto" poster="img/comet.png" class="preview__video">
+                <source type="video/mp4" src="img/comet.mp4">
+                <source type="video/webm" src="img/comet.webm">
+            </video>
+
+            <div class="preview__title">
+                <p>hello</p>
+                <p>i'm <span>novice</span></p>
+                <p>fullstack developer</p>
+                <a href="#about">
+                    <button type="button">
+                        view my work
+                        <i class="far fa-arrow-alt-circle-down"></i>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-title">
+                <div class="section-title__title anim_item _animation">Обо мне</div>
+                <svg class="anim_item _animation" viewBox="0 0 100 5">
+                    <line x1="0" y1="0" x2="100" y2="0" stroke="black" stroke-width="2" />
+                </svg>
+            </div>
+            <div class="about__content">
+                <div class="assurances">
+                    <div class="assurances__item">
+                        <i class="fas fa-fighter-jet anim_item "></i>
+                        <h3>Скорость</h3>
+                        <p>Быстрая загрузка и взаимодействие без задержек, мой главный приоритет</p>
+                    </div>
+                    <div class="assurances__item">
+                        <i class="fas fa-dice-d20 anim_item "></i>
+                        <h3>Надежность</h3>
+                        <p>Я уделяю особое внимание стабильности серверной части</p>
+                    </div>
+                    <div class="assurances__item">
+                        <i class="fas fa-cogs anim_item "></i>
+                        <h3>Динамичность</h3>
+                        <p>Веб-сайты не обязательно должны быть статичными,
+                        мне нравится заставлять страницы оживать.</p>
+                    </div>
+                    <div class="assurances__item">
+                        <i class="far fa-handshake anim_item "></i>
+                        <h3>Поддержка</h3>
+                        <p>Я всегда стараюсь строить долгосрочные отношения с клиентами</p>
+                    </div>
+                </div>
+                <div class="about_myself">
+                    <div class="about_myself__desc">
+                        <div class="about_myself__photo">
+                            <img src="img/my_photo.jpg" alt="my photo">
+                        </div>
+                        <h3>Обо мне</h3>
+                        <p>
+                            Я начинающий разработчик. Обычно я использую Django в своих
+                            проектах. Также я пишу ботов для таких мессенджеров, как
+                            telegram и slack.
+                        </p>
+                        <a href="#contact">Всегда готов к сотрудничеству!</a>
+                    </div>
+                    <div class="about_myself__slills">
+                        <div class="progress_bar">
+                            <div id="PYTHON" class="w3-container w3-teal" style="width:20%"><span>PYTHON</span>
+                            </div>
+                            <div id="PYTHON_percent" class="w3-container" style="width:17%">20%</div>
+                            <p style="display: none;">70</p>
+                        </div>
+
+                        <div class="progress_bar">
+                            <div id="DJANGO" class="w3-container w3-teal" style="width:20%"><span>DJANGO</span>
+                            </div>
+                            <div id="DJANGO_percent" class="w3-container" style="width:17%">20%</div>
+                            <p style="display: none;">80</p>
+                        </div>
+
+                        <div class="progress_bar">
+                            <div id="DRF" class="w3-container w3-teal" style="width:20%"><span>DRF</span></div>
+                            <div id="DRF_percent" class="w3-container" style="width:17%">20%</div>
+                            <p style="display: none;">65</p>
+                        </div>
+
+                        <div class="progress_bar">
+                            <div id="JavaScript" class="w3-container w3-teal" style="width:20%">
+                                <span>JAVASCRIPT</span>
+                            </div>
+                            <div id="JavaScript_percent" class="w3-container" style="width:17%">20%</div>
+                            <p style="display: none;">65</p>
+                        </div>
+
+                        <div class="progress_bar">
+                            <div id="REACT" class="w3-container w3-teal" style="width:20%"><span>REACT</span></div>
+                            <div id="REACT_percent" class="w3-container" style="width:17%">20%</div>
+                            <p style="display: none;">55</p>
+                        </div>
+
+                        <div class="progress_bar">
+                            <div id="HTML" class="w3-container w3-teal" style="width:20%"><span>HTML</span></div>
+                            <div id="HTML_percent" class="w3-container" style="width:17%">20%</div>
+                            <p style="display: none;">90</p>
+                        </div>
+
+                        <div class="progress_bar">
+                            <div id="CSS" class="w3-container w3-teal style=" width:20%"><span>CSS</span></div>
+                            <div id="CSS_percent" class="w3-container" style="width:17%">20%</div>
+                            <p style="display: none;">90</p>
+                        </div>
+
+                        <div class="progress_bar">
+                            <div id="SaaS" class="w3-container w3-teal" style="width:20%"><span>SaaS</span></div>
+                            <div id="SaaS_percent" class="w3-container" style="width:17%">20%</div>
+                            <p style="display: none;">85</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="section-title">
+                <div class="section-title__title anim_item _animation">проекты</div>
+                <svg class="anim_item _animation" viewBox="0 0 100 5">
+                    <line x1="0" y1="0" x2="100" y2="0" stroke="black" stroke-width="2" />
+                </svg>
+            </div>
+            <div class="projects__content">
+                <div class="projects__groupe big_anim_item _animation">
+                    <div class="projects__item">
+                        <img src="img/slacbot.png" alt="project pictute">
+                        <div class="projects__title projects__title_center">
+                            <h3>PARSER SLACKBOT <p>Python/Django</p>
+                            </h3>
+                            <a href="#slackbot">узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="projects__item">
+                        <img src="img/websocket.png" alt="project pictute">
+                        <div class="projects__title projects__title_center">
+                            <h3>websocket chat <p>DRF/JavaScript/Ajax</p>
+                            </h3>
+                            <a href="#websocket_chat">узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="projects__item">
+                        <img src="img/fanblog.jpg" alt="project pictute">
+                        <div class="projects__title projects__title_center">
+                            <h3>fan blog<p>Python/Django/BootStrap</p>
+                            </h3>
+                            <a href="#fanblog">узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="projects__item">
+                        <img src="img/reportbot.jpg" alt="project pictute">
+                        <div class="projects__title projects__title_center">
+                            <h3>telegram report bot<p>Django/pyTelegramBotAPI</p>
+                            </h3>
+                            <a href="#reportbot">узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1"
+                xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+                <path d="M0 0 L50 100 L100 0 Z" fill="rgb(230, 223, 223)" stroke="white"></path>
+            </svg>
+            <div class="section-title">
+                <div class="section-title__title anim_item _animation">Связаться со мной</div>
+                <svg class="anim_item _animation" viewBox="0 0 100 5">
+                    <line x1="0" y1="0" x2="100" y2="0" stroke="black" stroke-width="2" />
+                </svg>
+            </div>
+            <div class="contact__content">
+                <p class="contact__subtitle">Есть вопросы или хотите работать вместе?</p>
+                <form action="" class="contact__form">
+                    <input placeholder="Имя" type="text" id="name" required>
+                    <input placeholder="Введите email или telegram" type="text" id="email" required>
+                    <textarea placeholder="Ваше сообщение" type="text" id="message" required></textarea>
+                    <div id="success" class="contact__success-alert">
+                        <p>Your message was sent successfully!</p>
+                        <i class="far fa-times-circle contact__alert_close"></i>
+                    </div>
+                    <div id="userError" class="contact__error-alert">
+                        <p>Fill in all the form fields please!</p>
+                        <i class="far fa-times-circle contact__alert_close"></i>
+                    </div>
+                    <div id="systemError" class="contact__error-alert">
+                        <p>System error, please try later!</p>
+                        <i class="far fa-times-circle contact__alert_close"></i>
+                    </div>
+                    <input class="contact__sumbit" id="submit" type="button" value="Отправить">
+                </form>
+            </div>
+        </section>
+
+
+        <!-- Popup sections -->
+        <section id="slackbot" class="popup">
+            <a href="#main" class="popup__dark-area_close"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <div class="slaider">
+                        <div class="slaider__img-container">
+                            <img src="img/slacbot_1.png" class="slaider__img" alt="popup picture">
+                            <img src="img/slacbot_2.png" class="slaider__img" alt="popup picture">
+                            <img src="img/slacbot_3.png" class="slaider__img" alt="popup picture">
+                            <img src="img/slacbot_4.png" class="slaider__img" alt="popup picture">
+                            <img src="img/slacbot_5.png" class="slaider__img" alt="popup picture">
+                        </div>
+                    </div>
+                    <button class="slaider__btn_left"><i class="fas fa-angle-double-left"></i></button>
+                    <button class="slaider__btn_right"><i class="fas fa-angle-double-right"></i></button>
+                    <h2>parser slackbot</h2>
+                    <div class="popup__text">
+                        Приложение анализирует сайт на наличие новых сообщений и сохраняет его в базе данных.
+                        Далее, в соответствии с указанными настройками, он рассылает
+                        сообщения по каналам программы slack.
+                    </div>
+                    <a href="" class="popup__button" target="_blank">view code</a>
+                    <a href="#main" class="popup__close"><i class="far fa-times-circle"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="websocket_chat" class="popup">
+            <a href="#main" class="popup__dark-area_close"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <div class="slaider">
+                        <div class="slaider__img-container">
+                            <img src="img/websocket_1.png" class="slaider__img" alt="popup picture">
+                            <img src="img/websocket_2.png" class="slaider__img" alt="popup picture">
+                            <img src="img/websocket_3.png" class="slaider__img" alt="popup picture">
+                            <img src="img/websocket_4.png" class="slaider__img" alt="popup picture">
+                            <img src="img/websocket_5.png" class="slaider__img" alt="popup picture">
+
+                        </div>
+                    </div>
+
+                    <button class="slaider__btn_left"><i class="fas fa-angle-double-left"></i></button>
+                    <button class="slaider__btn_right"><i class="fas fa-angle-double-right"></i></button>
+
+                    <h2>chat room</h2>
+                    <div class="popup__text">
+                        Демонстрационная презентация чатов на websocket js и django.
+                        Может быть встроен в любое приложение django
+                    </div>
+                    <a href="" class="popup__button" target="_blank">view
+                        code</a>
+                    <a href="#main" class="popup__close"><i class="far fa-times-circle"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="fanblog" class="popup">
+            <a href="#main" class="popup__dark-area_close"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <div class="slaider">
+                        <div class="slaider__img-container">
+                            <img src="img/fanblog_1.png" class="slaider__img" alt="popup picture">
+                            <img src="img/fanblog_2.png" class="slaider__img" alt="popup picture">
+                            <img src="img/fanblog_3.png" class="slaider__img" alt="popup picture">
+                            <img src="img/fanblog_4.png" class="slaider__img" alt="popup picture">
+                        </div>
+                    </div>
+                    <button class="slaider__btn_left"><i class="fas fa-angle-double-left"></i></button>
+                    <button class="slaider__btn_right"><i class="fas fa-angle-double-right"></i></button>
+                    <h2>fan blog web app</h2>
+                    <div class="popup__text">
+                        Веб-сайт для обслуживания фанатов по игровой тематике
+                    </div>
+                    <a href="" class="popup__button" target="_blank">view code</a>
+                    <a href="#main" class="popup__close"><i class="far fa-times-circle"></i></a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="reportbot" class="popup">
+            <a href="#main" class="popup__dark-area_close"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <div class="slaider">
+                        <div class="slaider__img-container">
+                            <img src="img/reportbot_1.jpg" alt="popup picture" class="slaider__img">
+                            <img src="img/reportbot_2.jpg" alt="popup picture" class="slaider__img">
+                        </div>
+                    </div>
+                    <button class="slaider__btn_left"><i class="fas fa-angle-double-left"></i></button>
+                    <button class="slaider__btn_right"><i class="fas fa-angle-double-right"></i></button>
+                    <h2>telegram report bot</h2>
+                    <div class="popup__text">
+                        Цель программы - вести журнал займов между двумя пользователями в приложении Telegram.
+                    </div>
+                    <a href="" class="popup__button" target="_blank">view
+                        code</a>
+                    <a href="#main" class="popup__close"><i class="far fa-times-circle"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="seabattle" class="popup">
+            <a href="#main" class="popup__dark-area_close"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <div class="slaider">
+                        <div class="slaider__img-container">
+                            <img src="img/seabattle_1.png" alt="popup picture" class="slaider__img">
+                            <img src="img/seabattle_4.png" alt="popup picture" class="slaider__img">
+                            <img src="img/seabattle_5.png" alt="popup picture" class="slaider__img">
+                            <img src="img/seabattle_2.png" alt="popup picture" class="slaider__img">
+                            <img src="img/seabattle_3.png" alt="popup picture" class="slaider__img">
+                        </div>
+                    </div>
+                    <button class="slaider__btn_left"><i class="fas fa-angle-double-left"></i></button>
+                    <button class="slaider__btn_right"><i class="fas fa-angle-double-right"></i></button>
+                    <h2>sea battle</h2>
+                    <div class="popup__text">
+                        Console game Sea Battle.
+                    </div>
+                    <a href="" class="popup__button" target="_blank">view code</a>
+                    <a href="#main" class="popup__close"><i class="far fa-times-circle"></i></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__body">
+            <a href="#about"><i class="footer__icon-up fas fa-angle-double-up"></i></a>
+            <div class="footer__content">
+                <ul class="footer__sosial-links">
+                    <li><a href="" target="_blank">
+                        <i class="fab fa-telegram-plane"></i></a>
+                    </li>
+                </ul>
+                <div class="copyright">JustFun <span>©2022</span></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- HOSTED -->
+    <script src="https://kit.fontawesome.com/b33bf1e810.js" crossorigin="anonymous"></script>
+    <!-- LOCAL -->
+    <script src="js/index.js"></script>
+    <script src="js/progress_bar.js"></script>
+    <script src="js/slaider.js"></script>
+    <script src="js/bot.js"></script>
+    <script src="js/form.js"></script>
+</body>
+
+</html>
